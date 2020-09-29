@@ -1,0 +1,45 @@
+.navbar {
+    background: rgb(0, 0, 0);
+    height: 70px;
+    width: 100%;
+    padding: 0 50px;
+    position: fixed;
+    
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    line-height: 70px;
+}
+
+.logo img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.nav-list1, .nav-list2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list1 li, .nav-list2 li{
+    color: white;
+    list-style-type: none;
+    
+} 
+
+.nav-list1 li{
+    margin-right: 20px;
+}
+.nav-list2 li{
+    margin-left: 20px;
+}
+
