@@ -1,3 +1,22 @@
-.products{
+.products-page{
     padding-top: 70px;
+}
+
+.products-sidebar {
+    float: left;
+    width: 20%;
+    min-width: 250px;
+    height: 2000px;
+    background: rgb(179, 176, 176);
+}
+
+.products {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto;
+   grid-gap: 1rem;
+   padding: 0 50px;
+   align-items: center;
+   text-align: center;
+   padding-bottom: 20px;
 }

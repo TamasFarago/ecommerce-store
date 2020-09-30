@@ -1,8 +1,8 @@
 import smartWatch from "./images/smartwatch.jpg"
-import GamingLaptop from "./images/gaminglaptop.jpg"
+import GamingLaptop from "./images/gaminglaptop.jpeg"
 import Homeassistant from "./images/homeassistant.jpg"
-import Headphones from "./images/Headphones.jpg"
-import Smartphone from "./images/Smartphone.jpg"
+import Headphones from "./images/headphones.jpg"
+import Smartphone from "./images/smartphone.jpg"
 import cwatch from "./images/cwatch.jpg"
 import iPhone from "./images/iPhone.jpg"
 import morePro from "./images/morepro.jpg"
@@ -30,7 +30,7 @@ export default [
         type: "laptop",
         price: 499,
         colors: "black, white",
-        featured: false,
+        featured: true,
         description:  "More Power, More Cores: The 8-Core 10th Gen Intel Core i7-10875H processor provides the ultimate level of performance with up to 5. 1GHz Max Turbo.  Studio Ready: The NVIDIA GeForce RTX 2080 Super with Max-Q Design (8GB GDDR6 VRAM) graphics is up to 25% faster than the original RTX 20 Series with more cores and higher clocks. Vivid Visuals: The 4K OLED touch display delivers blazing fast 1ms response time and a wide color range covering 100% of the DCI-P3 space, while the HDR 400 True Black ensures deep blacks and vibrant colors.",
 
       
@@ -159,7 +159,7 @@ export default [
           type: "watch",
           price: 199,
           colors: "black, white",
-          featured: false,
+          featured: true,
           description: 
 
           "Cwatch3 use a 1. 3-Inch large touch screen can track your daily exercise like steps counting, calorie consumption, exercise distance and time, etc. The workouts are recorded by very Fit Pro app, accurately monitor sleep mass, and measure real-time heart rate All day.           【5ATM waterproof fitness tracker and 10 days battery life】-this Smartwatch meets the 5ATM waterproof standard and can be worn while swimming, no need to take it off frequently (notice: Do Not use in water more than 100. 40℉, such as Showers, saunas, etc). There is 4 Stylish clock faces for you to choose. Supports the latest Bluetooth 5. 0, with a ultra-long battery life to give you 10 days of depending on the individual usage).",
@@ -236,7 +236,7 @@ export default [
           type: "headphone",
           price: 189,
           colors: "black",
-          featured: false,
+          featured: true,
           description:  
             "Safe Hearing Protection: Built-in volume limit at 94dB protects kids’ hearing from too loud noise. No need to always stay around your child for safety supervision. Excellent sound at an appropriate volume inspires your kids’ interests in study and music in a safe environment. Fold-flat Design: With unique fold-flat design and undetachable audio cable, the lightweight, compact wired kids headphones take up minimum space for easy storage in school bags, suitcases, or backpacks. Keep tidy and organized at home or enjoy portable convenience on road trips, buses, on planes, and drive rides. Safe and Durable Materials: Mpow children headsets made of safe food-grade materials refuse any harm to your children; Sturdy headband and nylon-braided audio cable survive rough treating of kids to avoid the sad end of broken headphones and to prolong using time.             Comfort & Adjustable: Ultra-soft padded head beam and plushy foam earmuffs with 90°swiveling design ensure maximum burden-free comfort and minimum clamping force. 2.8in/7cm retractable headband offers the perfect fit for all kids aged from 3-16 with different head sizes.             Universal Compatibility: Standard and durable 3.5mm audio jack helps Mpow wired headphones for kids work perfectly with almost all smartphones, tablets, laptops, PC and more devices with 3.5mm audio port.",
 
