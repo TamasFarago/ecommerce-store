@@ -27,7 +27,7 @@ export default [
       fields: {
         name: "GX16 Gaming Laptop",
         slug: "gx16-gaming-laptop",
-        type: "laptop",
+        type: "laptops",
         price: 499,
         colors: "black, white",
         featured: true,
@@ -77,7 +77,7 @@ export default [
         fields: {
           name: "Smart Watch",
           slug: "smart-watch",
-          type: "watch",
+          type: "watches",
           price: 99,
           colors: "black, white, red",
           featured: false,
@@ -103,7 +103,7 @@ export default [
         fields: {
           name: "SR580 Headphones",
           slug: "sr580-headphones",
-          type: "headphone",
+          type: "headphones",
           price: 199,
           colors: "black",
           featured: false,
@@ -129,7 +129,7 @@ export default [
         fields: {
           name: "LP5 SmartPhone",
           slug: "lp5-smartphone",
-          type: "phone",
+          type: "phones",
           price: 399,
           colors: "black, white",
           featured: false,
@@ -156,7 +156,7 @@ export default [
         fields: {
           name: "C Watch",
           slug: "c-watch",
-          type: "watch",
+          type: "watches",
           price: 199,
           colors: "black, white",
           featured: true,
@@ -183,7 +183,7 @@ export default [
         fields: {
           name: "iPhone 8",
           slug: "iphone-8",
-          type: "phone",
+          type: "phones",
           price: 249,
           colors: "black, white",
           featured: false,
@@ -207,7 +207,7 @@ export default [
         fields: {
           name: "morePro Smartwatch",
           slug: "morepro-smartwatch",
-          type: "watch",
+          type: "watches",
           price: 149,
           colors: "black, white",
           featured: false,
@@ -233,7 +233,7 @@ export default [
         fields: {
           name: "Studio D Headphones",
           slug: "studiod-headphones",
-          type: "headphone",
+          type: "headphones",
           price: 189,
           colors: "black",
           featured: true,
@@ -258,7 +258,7 @@ export default [
         fields: {
           name: "X6 SmartWatch",
           slug: "x6-smartwatch",
-          type: "watch",
+          type: "watches",
           price: 159,
           colors: "black",
           featured: false,
@@ -283,7 +283,7 @@ export default [
         fields: {
           name: "pinkWatch",
           slug: "pinkwatch",
-          type: "watch",
+          type: "watches",
           price: 139,
           colors: "pink",
           featured: false,
@@ -308,7 +308,7 @@ export default [
         fields: {
           name: "Galaxy Smartbook",
           slug: "galaxy-smartbook",
-          type: "laptop",
+          type: "laptops",
           price: 339,
           colors: "lightgrey",
           featured: false,
@@ -355,7 +355,7 @@ export default [
         fields: {
           name: "Xiaomi z89 SmartPhone",
           slug: "xiaomi-z89",
-          type: "phone",
+          type: "phones",
           price: 399,
           colors: "red",
           featured: false,
@@ -380,7 +380,7 @@ export default [
         fields: {
           name: "Beats Solo Headphones",
           slug: "beats-solo",
-          type: "headphone",
+          type: "headphones",
           price: 199,
           colors: "blue",
           featured: false,
@@ -406,7 +406,7 @@ export default [
         fields: {
           name: "Asus Gaming SmarPhone",
           slug: "asus-gaming-phone",
-          type: "phone",
+          type: "phones",
           price: 399,
           colors: "white",
           featured: false,
@@ -432,7 +432,7 @@ export default [
         fields: {
           name: "Razor Gaming Notebook",
           slug: "razor-gaming-notebook",
-          type: "laptop",
+          type: "laptops",
           price: 699,
           colors: "black",
           featured: false,
@@ -457,7 +457,7 @@ export default [
         fields: {
           name: "Tinwoo smartWatch",
           slug: "tinwoo-smartwatch",
-          type: "watch",
+          type: "watches",
           price: 299,
           colors: "white, black, red, blue",
           featured: false,

@@ -12,7 +12,7 @@ export default class Navbar extends Component {
                 <ul className="nav-list1">
                     <NavLink to="/"><li>Home</li></NavLink>
                     <li>About</li>
-                    <NavLink to="products"><li>Shop</li></NavLink>
+                    <NavLink to="/products"><li>Shop</li></NavLink>
                     <li>News</li>
                     <li>Contact</li>
                 </ul>

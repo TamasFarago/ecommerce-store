@@ -1,3 +1,25 @@
 .singleproduct {
     padding-top: 70px;
 }
+
+.product-banner {
+    height: 100px;
+    background: rgb(238, 238, 238);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.product-banner h2 {
+    font-weight: 500;
+}
+
+.product-banner a{
+    text-decoration: none;
+    color: rgba(126, 126, 126, .5);
+    font-size: 15px;
+}
+
+.product-banner a:hover {
+    color: black;
+}

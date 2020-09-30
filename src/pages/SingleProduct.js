@@ -1,11 +1,47 @@
 import React, { Component } from 'react'
 import "../styles/SingleProduct.css"
+import { Link } from "react-router-dom"
+import {ProductContext} from "../context"
+
 
 export default class SingleProduct extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            slug: this.props.match.params.slug
+        }
+    }
+    static contextType = ProductContext
+    // componentDidMount(){}
     render() {
+        const{getProduct} = this.context;
+        const product = getProduct(this.state.slug)
+        if(!product){
+            return <div className="error">
+                <h3>The product you're looking for does not exist</h3>
+            </div>
+        }
+        const{name, description, price, images} = product
         return (
             <section className="singleproduct">
-                hi from single
+                <div className="product-banner">
+                    <h2>{name}</h2>
+                    <Link to="/">HOME</Link>
+                </div>
+                <div className="single-product-container">
+                    <div className="single-product-img-container">
+                        <img src={images}></img>
+                    </div>
+                    <div className="single-product-info">
+                        <h2>{name}</h2>
+                        <div className="single-product-description">
+                            <p>{description}</p>
+                        </div>
+                        <div className="single-product-add-cart">
+                            Add to cart
+                        </div>
+                    </div>
+                </div>
             </section>
         )
     }
