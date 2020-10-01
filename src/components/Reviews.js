@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import CommentForm from "./CommentForm"
 import Comment from "./Comment"
+import "../styles/Reviews.css"
 
 export default class Reviews extends Component {
     constructor(props){
         super(props);
         this.state = {
-            comments: [{name: "John" ,comment: "nice product", rating: 0}]
+            comments: [{name: "" ,comment: "", rating: ""}]
         }
         this.create = this.create.bind(this)
     }
@@ -16,14 +17,21 @@ export default class Reviews extends Component {
             })
     }
     render() {
+        
         const comments = this.state.comments.map(comment => {
             return <Comment comment={comment.comment} name={comment.name} rating={comment.rating}/>
         })
         return (
-            <div>
-                <CommentForm createComment={this.create}/>
+            <section className="comment-section">
+                <div className="reviews-title">
+                    <h5>Reviews ({this.state.comments.length})</h5>
+                </div>
+                <div className="comments">
+                    <h5>Reviews</h5>
                 <ul>{comments}</ul>
-            </div>
+                <CommentForm createComment={this.create}/>
+                </div>
+            </section>
         )
     }
 }

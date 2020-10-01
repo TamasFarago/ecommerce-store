@@ -1,0 +1,20 @@
+.comment {
+    display: flex;
+}
+
+.comment li {
+    list-style-type: none;
+}
+
+.star2 {
+    display: flex;
+}
+
+.comment-inner {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.comment-inner li {
+    margin-bottom: 20px;
+}
