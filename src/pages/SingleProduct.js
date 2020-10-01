@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import "../styles/SingleProduct.css"
 import { Link } from "react-router-dom"
 import {ProductContext} from "../context"
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import Reviews from "../components/Reviews"
 
 
 export default class SingleProduct extends Component {
@@ -34,14 +36,35 @@ export default class SingleProduct extends Component {
                     </div>
                     <div className="single-product-info">
                         <h2>{name}</h2>
+                        <hr />
                         <div className="single-product-description">
                             <p>{description}</p>
                         </div>
                         <div className="single-product-add-cart">
                             Add to cart
                         </div>
+                        <div className="product-social">
+                            <div className="icon">
+                                <FaFacebook className="social-icon"></FaFacebook>
+                                <span>Follow on Facebook</span>
+                            </div>
+                            <div className="icon">
+                                <FaInstagram className="social-icon"/>
+                                <span>Follow on Instagram</span>
+                            </div>
+                            <div className="icon">
+                                <FaTwitter className="social-icon"/>
+                                <span>Follow on Twitter</span>
+                            </div>
+                            <div className="icon">
+                                <FaLinkedin className="social-icon"/>
+                                <span>Follow on LinkedIn</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <hr className="single-hr"/>
+                <Reviews />
             </section>
         )
     }

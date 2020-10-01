@@ -23,3 +23,102 @@
 .product-banner a:hover {
     color: black;
 }
+
+.single-product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.single-product-img-container img{
+    width: 100%;
+    background-size: contain;
+    
+}
+
+.single-product-info {
+    text-align: center;
+}
+
+.single-product-info h2 {
+    margin-top: 50px;
+}
+
+.single-product-info hr {
+    width: 30px;
+    height: 3px;
+    border: none;
+    background: rgba(17, 17, 17, .2);
+    margin: 10px auto;
+}
+
+.single-product-description {
+    margin: 40px 50px;
+    font-size: 14px;
+    line-height: 1.8rem
+}
+
+.product-social {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: .5;
+    transition: .2s ease-in-out;
+    display: block;
+
+}
+
+.social-icon:hover {
+    opacity: 1;
+    color: #3b5998
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+.icon span {
+ font-size: 10px;
+ text-align: center;
+ display: block;
+ width: 120px;
+ background: black;
+ color: white;
+ padding: 5px 0;
+ border-radius: 8px;
+ position: absolute;
+ left: -75%;
+ bottom: -150%;
+ margin: 0 auto;
+ opacity: 0;
+ transition: 0.1s;
+
+}
+
+.icon span:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -6px;
+    background: black;
+    z-index: -1;
+    left: 58px;
+    transform: rotate(45deg)
+}
+
+.icon:hover > span {
+    opacity: 1
+}
+
+.single-hr {
+    margin-top: 30px;
+    opacity: .2;
+}
