@@ -1,5 +1,5 @@
 form {
-    height: 320px;
+    height: 350px;
     padding-left: 20px;
     margin-top: 50px;
     border: 2px solid rgb(27, 27, 27, .8);
@@ -45,10 +45,13 @@ input[type="radio"] {
 
 .comment-input {
     margin-right: 20px;
-    height: 50px;
+    width: 98% !important;
     outline: none;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, .3);
+    font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .comment-submit {

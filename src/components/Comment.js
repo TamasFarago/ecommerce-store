@@ -27,8 +27,9 @@ export default class Comment extends Component {
                         </div>
                     )})}
                 </div>
+                <p>Your review is awaiting approval</p>
                 <h1>{this.props.name}</h1>
-                <li>{this.props.comment}</li>
+                <p className="comment-text">{this.props.comment}</p>
                 </div>
             </div>
             

@@ -22,6 +22,7 @@
 .comment-section {
     position: relative;
     height: 100%;
+    width: 100vw
 }
 
 .comments h5 {

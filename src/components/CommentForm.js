@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import StarRating from "./StarRating"
 import {FaStar} from "react-icons/fa"
 import "../styles/CommentForm.css"
 
@@ -74,7 +73,7 @@ export default class CommentForm extends Component {
        
         </div>
         <div className="comment-form">
-        <label htmlFor="name">Name*</label>
+        <label htmlFor="name">Name *</label>
                 <input 
                 className="name-input"
                 type="text" 
@@ -84,7 +83,7 @@ export default class CommentForm extends Component {
                 name="name"
                 required/>
 
-                <label htmlFor="comment">New comment</label>
+                <label htmlFor="comment">Your Review *</label>
                 <textarea
                 rows="4" 
                 className="comment-input"

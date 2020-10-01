@@ -13,8 +13,17 @@
 .comment-inner {
     margin-top: 10px;
     margin-left: 10px;
+    width: 100vw;
 }
 
-.comment-inner li {
+.comment-text {
     margin-bottom: 20px;
+    display: block;
+    width: 40%;
+    
+}
+
+.comment-inner p {
+    font-style: italic;
+    font-size: 12px;
 }
