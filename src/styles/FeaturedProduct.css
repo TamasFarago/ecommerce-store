@@ -1,0 +1,23 @@
+.featured-product {
+    display: flex;
+}
+
+.featured-product-image {
+    margin-right: 20px;
+}
+
+.featured-product-data a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+.featured-product-data p:nth-child(2){
+    font-weight: 600;
+}
+
+.featured-hr {
+    margin-top: 10px;
+    width: 100% !important;
+    height: 1px !important
+}

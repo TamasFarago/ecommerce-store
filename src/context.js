@@ -18,6 +18,7 @@ export default class ProductProvider extends Component {
         this.setState({
             featuredProducts, products, sortedProducts:products, loading: false
         })
+        
     }
 
     formatData(items){

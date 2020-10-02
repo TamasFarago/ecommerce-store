@@ -383,7 +383,7 @@ export default [
           type: "headphones",
           price: 199,
           colors: "blue",
-          featured: false,
+          featured: true,
           description:  
           "High-performance wireless Bluetooth headphones in black. Features the Apple W1 chip and Class 1 wireless Bluetooth connectivity. Features the Apple W1 chip and Class 1 wireless Bluetooth connectivity. With up to 40 hours of battery life, Beats Solo3 wireless is your perfect everyday headphone. Compatible with iOS and Android devices.           With Fast Fuel, 5 minutes of charging gives you 3 hours of playback when battery is low. Adjustable fit with comfort-cushioned ear cups made for everyday use. Sleek, streamlined design that’s durable and foldable to go everywhere you do.",
 
@@ -460,7 +460,7 @@ export default [
           type: "watches",
           price: 299,
           colors: "white, black, red, blue",
-          featured: false,
+          featured: true,
           description:  
           "One device, Two functions. smart fitness watch + TWS earbuds. This trackbuds smart watch is sleek design, with bluetooth earphones inside. Slim bracelet body offers you new comfortable wearing experience.Easy to use. Message management assistant:Never miss any important information, improve your social efficiency. TWS earbuds built-in mic: Allowing you to chat with your friends, customers and family members anytime and anywhere. Sleep monitoring:Help you establish a regular sleep habit and avoid the bad effects of staying up late.",
 
