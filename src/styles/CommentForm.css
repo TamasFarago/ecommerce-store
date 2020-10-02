@@ -61,4 +61,5 @@ input[type="radio"] {
     background: black;
     color: white;
     outline: none;
+    cursor: pointer;
 }

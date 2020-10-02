@@ -19,7 +19,7 @@
 .comment-text {
     margin-bottom: 20px;
     display: block;
-    width: 40%;
+    font-style: normal !important;
     
 }
 
