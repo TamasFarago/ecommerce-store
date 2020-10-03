@@ -33,8 +33,24 @@
 }
 
 .add-to-cart {
+    padding: 5px 15px;
     margin-bottom: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid black;
+    transition: .2s ease-in-out;
+    cursor: pointer;
 }
+
+.add-to-cart:hover {
+    background: black;
+    color: white;
+}
+
+
 .product:hover{
     -webkit-box-shadow: 0px 1px 2px 1px rgba(235,235,235,1);
     -moz-box-shadow: 0px 1px 2px 1px rgba(235,235,235,1);
@@ -64,3 +80,4 @@
 .view:hover {
     color: rgb(207, 207, 207);
 }
+

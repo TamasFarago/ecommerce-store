@@ -5,6 +5,8 @@ import Product from "../components/Product"
 import ProductsFilter from "../components/ProductsFilter"
 import {Link} from "react-router-dom"
 import FeaturedProducts from "../components/FeaturedProducts"
+import YoutubePlayer from "../components/YoutubePlayer"
+
 
 export default class Products extends Component {
     constructor(props){
@@ -34,6 +36,11 @@ export default class Products extends Component {
         if(filteredProducts.length === 0){
             return (
             <section className="products-page">
+                <div className="hero-container">
+                <div className="hero-text">
+                        <h1>Discover our<br/> new products!</h1>
+                    </div>
+                </div>
                 <div className="products-container">
                     <div className="products-sidebar">
                         <h2>Shop</h2>
@@ -44,6 +51,7 @@ export default class Products extends Component {
                         </div>
                         <ProductsFilter handleInput={this.handleInput}/>
                         <FeaturedProducts />
+                        <YoutubePlayer />
                     </div>
                     <div className="product-error">
                         No products found.
@@ -56,6 +64,11 @@ export default class Products extends Component {
        
         return (
             <section className="products-page">
+                <div className="hero-container">
+                    <div className="hero-text">
+                        <h1>Discover our<br/> new products!</h1>
+                    </div>
+                </div>
                 <div className="products-container">
                     <div className="products-sidebar">
                         <h2>Shop</h2>
@@ -67,6 +80,7 @@ export default class Products extends Component {
                         
                         <ProductsFilter handleInput={this.handleInput}/>
                         <FeaturedProducts />
+                        <YoutubePlayer />
                     </div>
                     <div className="product-ammount">
                         <p>Showing All {filteredProducts.length} results</p></div>

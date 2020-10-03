@@ -23,7 +23,7 @@ export default function Product({product}) {
                 <h5>{name}</h5>
                 <p>${price}</p>
             </div>
-            <div className="add-to-cart">add to cart</div>
+            <button className="add-to-cart">add to cart</button>
             
         </article>
     )

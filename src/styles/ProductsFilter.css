@@ -3,9 +3,7 @@
     height: 35px;
     outline: none;
     border: 1px solid rgba(0, 0, 0, .2);
-    font-size: 1em
-}
-
-.product-filter input::placeholder{
+    font-size: 1em;
     padding-left: 5px;
 }
+
