@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar"
 import Products from "./pages/Products"
 import Home from "./pages/Home"
 import SingleProduct from "./pages/SingleProduct"
+import Cart from "./pages/Cart"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route exact path="/products/" component={Products}/>
         <Route exact path="/products/:slug" component={SingleProduct}/>
+        <Route exact path="/cart" component={Cart}/>
       </Switch>
         
     </div>

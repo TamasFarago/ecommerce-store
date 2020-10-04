@@ -23,7 +23,7 @@ export default class SingleProduct extends Component {
                 <h3>The product you're looking for does not exist</h3>
             </div>
         }
-        const{name, description, price, images} = product
+        const{name, description, price, images, id} = product
         return (
             <section className="singleproduct">
                 <div className="product-banner">
@@ -40,7 +40,7 @@ export default class SingleProduct extends Component {
                         <div className="single-product-description">
                             <p>{description}</p>
                         </div>
-                        <div className="single-product-add-cart">
+                        <div className="single-product-add-cart" onClick={() => this.context.addCart(id)}>
                             Add to cart
                         </div>
                         <div className="product-social">

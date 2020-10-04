@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 import logo from "../images/logo.png"
 import "../styles/Navbar.css"
-import {NavLink} from "react-router-dom"
+import {NavLink, Link} from "react-router-dom"
+import { FaShoppingCart } from "react-icons/fa";
+import { ProductContext } from "../context"
 
 export default class Navbar extends Component {
+    static contextType = ProductContext;
     render() {
+        const {cart} = this.context
         return (
             <nav className="navbar">
                 <div className="logo"> <img src={logo} alt="logo"></img></div>
@@ -18,7 +22,12 @@ export default class Navbar extends Component {
                 </ul>
                 <ul className="nav-list2">
                     <li>Login/Register</li>
-                    <li>Cart</li>
+                    <div className="nav-cart">
+                            <span>{cart.length}</span>
+                    <Link to="/cart">
+                    <FaShoppingCart className="shopping-cart"/>
+                    </Link>
+                    </div>
                 </ul>
                 </div>
             </nav>

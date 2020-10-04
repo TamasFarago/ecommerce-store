@@ -1,0 +1,141 @@
+.cart {
+    padding-top: 70px;
+}
+
+.cart-nav {
+    text-transform: uppercase;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+.cart-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.cart hr {
+    height: 2px;
+    border: none;
+    background: rgba(128, 128, 128, .2);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cart-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    grid-template-rows: 1fr;
+    margin: 0 20px;
+}
+
+/* .cart-products {
+    border-right: 1px solid rgba(128, 128, 128, .4);
+} */
+
+.cart-products table {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.cart-products th  {
+    text-align: left;
+    border-bottom: 2px solid rgba(128, 128, 128, .4);
+    
+}
+tr.border-bottom td {
+    border-bottom: 1px solid rgba(128, 128, 128, .4);
+    
+  }
+
+.cart-products table {
+    border-right: 1px solid rgba(128, 128, 128, .4);
+}
+
+.cart-products th, td {
+    padding: 10px;
+}
+
+.item-name {
+    display: inline-block;
+    margin-left: 10px;
+  
+}
+
+.product-flex {
+    display: flex;
+    align-items: center;
+}
+
+.amount span, .count1 {
+    margin-right: 10px;
+}
+
+.count1 {
+    margin-left: 10px;
+}
+
+.amount button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.amount span {
+    font-variant-numeric: tabular-nums
+    
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin-right: 5px;
+}
+
+.cart-summary table {
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 40vw;
+}
+
+.cart-totals {
+    text-align: left;
+}
+
+.summary-row td:nth-child(2) {
+    text-align: right;
+}
+
+tr.summary-row-border-bottom td {
+    border-bottom: 1px solid rgba(128, 128, 128, .4);
+   
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.cart-summary table {
+    border-bottom: 3px solid rgba(128, 128, 128, .4);
+}
+
+.checkout-btn {
+    text-transform: uppercase;
+    height: 40px;
+    width: calc(100% - 20px);
+    margin-left: 20px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+}

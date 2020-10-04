@@ -47,3 +47,32 @@
     margin-left: 20px;
 }
 
+.nav-cart {
+    margin-left: 40px;
+    position: relative;
+}
+
+
+
+.nav-cart span {
+    position: absolute;;
+    right: -15%;
+    top: 13%;
+    background: crimson;
+    font-size: 15px;
+    color: white;
+    /* padding:  5px; */
+    border-radius: 50%;
+    z-index: -1;
+    height: 30%;
+    width: 55%;
+    text-align: center;
+   line-height: 20px;
+    
+}
+
+.shopping-cart {
+    font-size: 2em;
+    transform: translateY(40%);
+    color: rgb(247, 180, 57);
+}
