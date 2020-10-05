@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import {ProductContext} from "../context"
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import Reviews from "../components/Reviews"
+import Magnifier from 'react-glass-magnifier'
 
 
 export default class SingleProduct extends Component {
@@ -32,7 +33,14 @@ export default class SingleProduct extends Component {
                 </div>
                 <div className="single-product-container">
                     <div className="single-product-img-container">
-                        <img src={images}></img>
+                        <Magnifier className="magnifier"
+                            imageUrl={images}
+                            imgAlt="small image"
+                            zoomFactor={2}
+                            glassDimension={300}
+                            largeImageUrl={images}
+                            glassBorderWidth={1}
+                        />
                     </div>
                     <div className="single-product-info">
                         <h2>{name}</h2>

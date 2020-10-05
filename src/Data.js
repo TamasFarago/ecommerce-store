@@ -1,15 +1,15 @@
 import smartWatch from "./images/smartwatch.jpg"
 import GamingLaptop from "./images/gaminglaptop.jpeg"
 import Homeassistant from "./images/homeassistant.jpg"
-import Headphones from "./images/headphones.jpg"
+import Headphones from "./images/headphones.png"
 import Smartphone from "./images/smartphone.jpg"
 import cwatch from "./images/cwatch.jpg"
-import iPhone from "./images/iPhone.jpg"
+import iPhone from "./images/iphone.png"
 import morePro from "./images/morepro.jpg"
 import studioD from "./images/studio-d.jpg"
 import x6 from "./images/x6.jpg"
 import pinkwatch from "./images/pinkwatch.jpg"
-import galaxy from "./images/galaxysmartbook.jpg"
+import galaxy from "./images/galaxysmartbook.jpeg"
 import smartcamera from "./images/smartcamera.jpg"
 import xiaomi from "./images/xiaomi.jpg"
 import beatssolo from "./images/beatssolo.jpg"
@@ -28,7 +28,7 @@ export default [
         name: "GX16 Gaming Laptop",
         slug: "gx16-gaming-laptop",
         type: "laptops",
-        price: 499.00,
+        price: 499,
         colors: "black, white",
         featured: true,
         count: 1,
@@ -59,7 +59,7 @@ export default [
           featured: false,
           count: 1,
           description: 
-          "Voice control your entertainment - Stream songs from Amazon Music, Apple Music, Spotify, SiriusXM, and others. Play music, audiobooks, and podcasts throughout your home with multi-room music.          Ready to help - Ask Alexa to tell a joke, play music, answer questions, play the news, check the weather, set alarms, and more.          Control your smart home - Use your voice to turn on lights, adjust thermostats, and lock doors with compatible devices.",
+          "Voice control your entertainment - Stream songs from Amazon Music, Apple Music, Spotify, SiriusXM, and others. Play music, audiobooks, and podcasts throughout your home with multi-room music. Ready to help - Ask Alexa to tell a joke, play music, answer questions, play the news, check the weather, set alarms, and more. Control your smart home - Use your voice to turn on lights, adjust thermostats, and lock doors with compatible devices.",
 
           images: [
             {
@@ -104,8 +104,8 @@ export default [
           id: "4"
         },
         fields: {
-          name: "SR580 Headphones",
-          slug: "sr580-headphones",
+          name: "SRH440 Headphones",
+          slug: "srh440-headphones",
           type: "headphones",
           price: 199.00,
           count: 1,
@@ -187,8 +187,8 @@ export default [
           id: "7"
         },
         fields: {
-          name: "iPhone 8",
-          slug: "iphone-8",
+          name: "iPhone XR",
+          slug: "iphone-xr",
           type: "phones",
           price: 249.00,
           count: 1,
@@ -366,15 +366,14 @@ export default [
           id: "14"
         },
         fields: {
-          name: "Xiaomi z89 SmartPhone",
-          slug: "xiaomi-z89",
+          name: "Xiaomi Redmi SmartPhone",
+          slug: "xiaomi-redmi",
           type: "phones",
           price: 399.00,
           colors: "red",
           count: 1,
           featured: false,
-          description:  
-          "LTE: B1/3/7/8/20/28/38/40 > (ensure to check compatibility with your carrier before purchase). (6.67) FHD+ Resolution DotDisplay 2400 x 1080 FHD+ - Triple Corning Gorilla Glass 5 - Anti-oil and anti-fingerprint protective coating.           6GB RAM + 128GB, microSD expandable up to 512GB - Qualcomm Snapdragon 720G - 5020 mAh (typical) Li Polymer Built-in rechargeable battery - Supports 2.4G Wi-Fi / 5G Wi-Fi - Side-Mounted Fingerprint Sensor.           Rear Camera: 64MP primary camera, 8MP ultra-wide angle camera, 5MP macro camera, 2MP depth sensor - Front Camera: 16MP Front Camera - Video: 4K recording - 30fps.           Factory Unlocked cellphones are compatible with most of the GSM carriers ( Like T-Mobile or AT&T ) but please be aware that are not compatible with CDMA carriers ( Like Sprint or Verizon Wireless for example ) - FCC ID: 2AFZZJ6B2G",
+          description:  "The Redmi Note 9 Pro offers a truly beast performance in every department. This smartphone features an impressive 64MP Quad Camera Array that combines a powerful 64MP primary sensor, 8MP ultra-wide-angle lens, a 5MP macro lens, and a 2MP macro lens, so you are ready to click in any condition. Powered by the Qualcomm Snapdragon 720G, gaming is effortless and efficient. Work and play uninterrupted with the huge 5020mAh battery that is accompanied by the 18W Fast Charger.",
 
           images: [
             {
@@ -446,8 +445,8 @@ export default [
           id: "17"
         },
         fields: {
-          name: "Razor Gaming Notebook",
-          slug: "razor-gaming-notebook",
+          name: "ROG Gaming Notebook",
+          slug: "rog-gaming-notebook",
           type: "laptops",
           price: 699.00,
           colors: "black",

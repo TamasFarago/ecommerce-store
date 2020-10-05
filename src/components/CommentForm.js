@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {FaStar} from "react-icons/fa"
 import "../styles/CommentForm.css"
 
+
 export default class CommentForm extends Component {
     constructor(props){
         super(props);

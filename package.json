@@ -10,6 +10,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-glass-magnifier": "^1.1.1",
     "react-icons": "^3.11.0",
     "react-iframe": "^1.8.0",
     "react-router-dom": "^5.2.0",

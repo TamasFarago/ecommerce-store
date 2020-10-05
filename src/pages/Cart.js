@@ -18,7 +18,10 @@ export default class Cart extends Component {
            return (
            
            <section className="cart">
-           <h2 style={{textAlign: "center"}}>The cart is currently empty</h2>
+           <h2 className="empty" style={{textAlign: "center"}}>The cart is currently empty</h2>
+           <Link to="/products">
+                       <button className="back-btn empty-btn">{'\u2190'} Back to shopping</button>
+                       </Link>
            </section>
 )
         } else {

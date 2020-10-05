@@ -1,0 +1,48 @@
+.home-hero-img-container{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-hero {
+    width: 100vw;
+    position: relative;
+}
+
+.home-hero-text {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    text-transform: uppercase;
+}
+
+.home-hero-img-container h5 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.home-hero p {
+    color: white;
+    margin-top: 10px;
+
+}
+
+.home-hero-text button {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold
+}
+
+.home-hero-text button:hover {
+    background: white;
+    color: rgb(85, 85, 85)
+}
+

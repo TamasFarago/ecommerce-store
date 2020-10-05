@@ -181,3 +181,14 @@ tr.summary-row-border-bottom td {
     background: black;
     color: white;
 }
+
+.empty {
+    margin-top: 50px;
+}
+
+.empty-btn {
+    position: absolute;
+    margin-top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
