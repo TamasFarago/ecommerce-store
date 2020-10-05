@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "../styles/Cart.css"
 import { ProductContext } from "../context"
-import {NavLink} from "react-router-dom"
+import {NavLink, Link} from "react-router-dom"
 import Delete from "../images/times-circle-regular.svg"
 
 export default class Cart extends Component {
@@ -64,10 +64,16 @@ export default class Cart extends Component {
                         
                          
                        </table>
+                       <Link to="/products">
+                       <button className="back-btn">{'\u2190'} continue shopping</button>
+                       </Link>
+                       <hr className="cart-hr" />
                     </div>
+                    
                     <div className="cart-summary">
+                    
                         <table>
-                            <tr className="summary-row">
+                            <tr className="summary-row row1">
                                 <th className="cart-totals">CART TOTALS</th>
                                 <th> </th>
                             </tr>

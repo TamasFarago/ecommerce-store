@@ -31,9 +31,9 @@
     margin: 0 20px;
 }
 
-/* .cart-products {
-    border-right: 1px solid rgba(128, 128, 128, .4);
-} */
+.cart-products {
+    position: relative
+}
 
 .cart-products table {
     width: 100%;
@@ -50,11 +50,10 @@ tr.border-bottom td {
     
   }
 
-.cart-products table {
-    border-right: 1px solid rgba(128, 128, 128, .4);
-}
 
-.cart-products th, td {
+
+.cart-products th, td,
+.cart-summary th, td {
     padding: 10px;
 }
 
@@ -73,9 +72,7 @@ tr.border-bottom td {
     margin-right: 10px;
 }
 
-.count1 {
-    margin-left: 10px;
-}
+
 
 .amount button {
     width: 20px;
@@ -85,11 +82,19 @@ tr.border-bottom td {
     background: white;
     cursor: pointer;
     outline: none;
+    transition: .2s ease-in-out;
+    line-height: 10px;
+}
+
+.amount button:hover {
+    background: rgb(56, 56, 56);
+    color: white;
+    border: 1px solid rgb(56, 56, 56);
 }
 
 .amount span {
-    font-variant-numeric: tabular-nums
-    
+    font-variant-numeric: tabular-nums;
+    opacity: .6
 }
 
 .delete {
@@ -100,10 +105,17 @@ tr.border-bottom td {
     margin-right: 5px;
 }
 
+
+
 .cart-summary table {
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 50px;
     width: 40vw;
+    border-bottom: 3px solid rgba(128, 128, 128, .4);
+}
+
+.cart-summary th {
+    border-bottom: 2px solid rgba(128, 128, 128, .4);
 }
 
 .cart-totals {
@@ -123,9 +135,6 @@ tr.summary-row-border-bottom td {
     font-weight: 600;
 }
 
-.cart-summary table {
-    border-bottom: 3px solid rgba(128, 128, 128, .4);
-}
 
 .checkout-btn {
     text-transform: uppercase;
@@ -138,4 +147,37 @@ tr.summary-row-border-bottom td {
     cursor: pointer;
     outline: none;
     font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+
+.cart-hr {
+    position: absolute;
+    right: -10px;
+    top: 50px;
+    height: 95% !important;
+    width: 1px !important;
+    border: none;
+    background:rgba(128, 128, 128, .2) !important;
+
+}
+
+.back-btn {
+    width: 25%;
+    height: 40px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    border: 2px solid black;
+    transition: .2s ease-in-out;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    background: black;
+    color: white;
 }

@@ -43,6 +43,7 @@
     border: 2px solid black;
     transition: .2s ease-in-out;
     cursor: pointer;
+    outline: none;
 }
 
 .add-to-cart:hover {
