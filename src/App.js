@@ -6,6 +6,7 @@ import Products from "./pages/Products"
 import Home from "./pages/Home"
 import SingleProduct from "./pages/SingleProduct"
 import Cart from "./pages/Cart"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route exact path="/products/:slug" component={SingleProduct}/>
         <Route exact path="/cart" component={Cart}/>
       </Switch>
-        
+        <Footer />
     </div>
   );
 }
