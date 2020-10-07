@@ -3,11 +3,17 @@ import { Link } from "react-router-dom"
 import "../styles/Product.css"
 import PropTypes from "prop-types"
 import { ProductContext } from "../context"
+import Snackbar from '@material-ui/core/Snackbar';
+import CloseIcon from '@material-ui/icons/Close';
+import IconButton from '@material-ui/core/IconButton';
 
 export default class Product extends Component {
     constructor(props){
         super(props);
+
     }
+
+    
     static contextType = ProductContext;
     render() {
         return (
@@ -32,6 +38,25 @@ export default class Product extends Component {
                 className="add-to-cart"
                 onClick={() => this.context.addCart(this.props.product.id)}
                 >add to cart</button>
+                <Snackbar 
+                   
+                    anchorOrigin={{vertical: "bottom", horizontal: "left" }}
+                    open={this.context.open}
+                    autoHideDuration={2000}
+                    message={<span id="message-id">Successfully added to cart!</span>}
+                    ContentProps={{"aria-describedby": "message-id"}}
+                    onClose={this.context.closeSnackbar}
+                    action={[<IconButton 
+                        
+                        onClick={this.context.closeSnackbar} 
+                        color="inherit" 
+                        key="close"
+                        aria-label="close"
+                    >
+                        <CloseIcon />
+                    </IconButton>]}
+                    
+                    />
             
         </article>
                 

@@ -8,6 +8,8 @@ import FeaturedProducts from "../components/FeaturedProducts"
 import YoutubePlayer from "../components/YoutubePlayer"
 
 
+
+
 export default class Products extends Component {
     constructor(props){
         super(props);
@@ -21,6 +23,8 @@ export default class Products extends Component {
             searchProduct: e.target.value})
         
     }
+
+ 
     render() {
         
         let filteredProducts = this.context.products.filter((product) => {
@@ -88,6 +92,7 @@ export default class Products extends Component {
                         {filteredProducts}
                     </div>
                 </div>
+                
             </section> 
         ) 
     } 

@@ -11,7 +11,11 @@ export default class ProductProvider extends Component {
         loading: true,
         cart: [],
         total: 0,
+        open: false
+        
     }
+    
+    
 
     addCart = (id) => {
         const {products, cart} = this.state;
@@ -22,7 +26,7 @@ export default class ProductProvider extends Component {
             const data = products.filter(product => {
                 return product.id === id
             })
-            this.setState({cart: [...cart,...data]})
+            this.setState({cart: [...cart,...data], open: true})
         } else {
             alert("The product is already in the cart")
         }
@@ -114,13 +118,16 @@ export default class ProductProvider extends Component {
             this.setState({total: dataTotal})
         }
     }
+    closeSnackbar = () => {
+        this.setState({open: false})
+    }
 
 
     render() {
-        const {cart, total} = this.state
-        const {addCart, reduction, increase, removeProduct, getTotal} = this
+        const {cart, total, open} = this.state
+        const {addCart, reduction, increase, removeProduct, getTotal, closeSnackbar} = this
         return (
-        <ProductContext.Provider value={{...this.state, getProduct: this.getProduct, addCart, cart, reduction, increase, removeProduct, total, getTotal}}>
+        <ProductContext.Provider value={{...this.state, getProduct: this.getProduct, addCart, cart, reduction, increase, removeProduct, total, getTotal, open, closeSnackbar}}>
             {this.props.children}
         </ProductContext.Provider>
     ) 

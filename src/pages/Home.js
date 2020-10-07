@@ -31,12 +31,12 @@ export default class Home extends Component {
                 </div>
                 <div className="home-grid-content2 ct">
                     <img src={box}></img>
-                    <h5>Free return</h5>
+                    <h5>Free Return</h5>
                     <p>If there's something wrong with your package, we offer a free return shipping</p>
                 </div>
                 <div className="home-grid-content3 ct">
                     <img src={dollar}></img>
-                    <h5>Free shipping</h5>
+                    <h5>Free Delivery</h5>
                     <p>We ship all our products for free!</p>
                 </div>
             </div>

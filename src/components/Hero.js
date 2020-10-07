@@ -16,7 +16,7 @@ export default class Hero extends Component {
                     <div className="home-hero-text" style={this.props.style}>
                         <h5>{this.props.text}</h5>
                         <p>{this.props.price}</p>
-                        <Link to="/products/morepro-smartwatch">
+                        <Link to="/products/">
                         <button>SHOP NOW!</button>
                         </Link>
                     </div>
