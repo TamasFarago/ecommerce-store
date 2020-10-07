@@ -54,11 +54,13 @@
 .contact-grid-content1 {
     background: white;
     margin-top: -50px;
+    height: 350px;
 }
 
 .contact-grid-content2 {
     background: white;
     margin-top: -50px;
+    height: 350px;
 }
 
 .phone, .chat {
@@ -151,4 +153,32 @@
     height: 3px;
     border: none;
     background: rgba(128, 128, 128, .3);
+}
+
+@media (max-width: 805px) {
+    .contact-grid button {
+        font-size: 10px;
+    }
+
+    .contact-hero-text {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 580px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1fr;
+    }
+    .contact-grid-content2  {
+        margin-top: 10px;
+    }
+
+    
+}
+
+@media (max-width: 303px) {
+    .form-group label {
+        font-size: 10px;
+    }
 }
