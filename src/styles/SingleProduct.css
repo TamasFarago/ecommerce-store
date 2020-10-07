@@ -49,6 +49,7 @@
     font-size: 25px;
     transition: .2s ease-in-out;
     cursor: pointer;
+    color: black;
 }
 
 .back-arrow:hover {
