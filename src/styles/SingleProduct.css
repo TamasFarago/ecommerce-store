@@ -149,6 +149,9 @@
     text-transform: uppercase;
     font-size: 14px;
 }
+.styles_magnifying-glass__12Z9V {
+    width: 100% !important;
+}
 
 .magnifier {
     width: 100%;
@@ -180,6 +183,10 @@
 
 @media (max-width: 312px) {
     .icon {
+        font-size: 20px;
         margin: 0;
+    }
+    .single-product-info h2 {
+        font-size: 15px;
     }
 }

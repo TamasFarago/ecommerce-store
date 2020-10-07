@@ -35,7 +35,7 @@ export default class Cart extends Component {
                 <hr />
                 <div className="cart-grid">
                     <div className="cart-products">
-                        <table>
+                        <table className="desktop-table">
                             <tr className="border-right">
                                 <th>PRODUCT</th>
                                 <th>PRICE</th>
@@ -66,6 +66,33 @@ export default class Cart extends Component {
                             ))}
                         
                          
+                       </table>
+                       <table className="mobile-table">
+                            <tr>
+                                <th>PRODUCT</th>
+                                <th>QUANTITY</th>
+                            </tr>
+                            {cart.map(item => (
+                               <tr>
+                                   <td className="mobile-td">
+                                   <div className="delete" onClick={() => removeProduct(item.id)}><img className="delete"src={Delete} /></div>
+                                   <img className="mobile-img" src={item.images} style={{height: "50px", width: "50px"}}></img>
+                                    <div className="mobile-table-name">
+                                        <p className="item-name">{item.name}</p>
+                                        <div className="total bold">
+                                        <span>{item.count}</span> * ${item.price}
+                                         </div>
+                                    </div>
+                                   </td>
+                                   <div className="amount amount-mobile">
+                                        <button className="count1" onClick={() => reduction(item.id)}> - </button>
+                                        <span>{item.count}</span>
+                                        <button className="count" onClick={() => increase(item.id)}> + </button>
+                                    </div>
+
+                               </tr>
+                            ))}
+                            
                        </table>
                        <Link to="/products">
                        <button className="back-btn">{'\u2190'} continue shopping</button>
