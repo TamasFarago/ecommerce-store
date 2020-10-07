@@ -105,3 +105,13 @@
     }
    
 }
+
+@media (max-width: 350px) {
+    .logo img {
+        width: 20px;
+        height: 20px;
+    }
+    .nav-list2 p {
+        display: none;
+    }
+}

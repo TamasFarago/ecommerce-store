@@ -43,7 +43,7 @@ export default class Home extends Component {
             <Hero 
                 image={Hero1}
                 text="Exclusive deals only this month!"
-                style={{left: "60%"}}/>
+                style={{left: "55%"}}/>
 
                 <div className="featured-home"><h2>Featured products</h2></div>
                 <div className="products-home">

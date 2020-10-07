@@ -45,7 +45,7 @@ export default class SideNav extends Component {
                         </NavLink>
                     </ul>
                 </div>
-                <div className={this.state.isOpen? "dark-bg" : ""}></div>
+                <div className={this.state.isOpen? "dark-bg" : ""} onClick={this.closeNav}></div>
             </>
         )
     }
