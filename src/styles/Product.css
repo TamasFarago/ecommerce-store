@@ -7,11 +7,13 @@
 .img-container img{
     width: 248px;
     height: 240px;
-    transition: .2s ease-in-out
+    transition: .2s ease-in-out;
+    background-size: contain;
 }
 
 .product {
     width: 250px;
+    margin: 0 auto;
     transition: .2s ease-in-out
 }
 
@@ -81,4 +83,41 @@
 .view:hover {
     color: rgb(207, 207, 207);
 }
+
+@media (max-width: 850px){
+    .product-details h5{
+        font-size: 14px;
+    }
+    .products {
+        padding: 50px 0;
+    }
+    .product{
+        width: 200px;
+    }
+    .img-container img {
+        width: 208px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 733px) {
+    .product{
+        width: 250px;
+    }
+    .img-container img {
+        width: 258px;
+        height: 250px;
+    }
+}
+
+
+
+@media (max-width: 302px) {
+    .product {
+        margin: 0 5%;
+    }
+}
+
+
+
 
