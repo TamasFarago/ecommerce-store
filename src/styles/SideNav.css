@@ -1,0 +1,107 @@
+.hamburger-menu {
+    position: fixed;
+    top: 37px;
+    transform: translateY(-50%);
+    left: 50px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-menu div {
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px;
+    background: black;
+   
+}
+
+.sidenav-main {
+    width: 0px;
+    height: 100vh;
+    background: rgb(58, 58, 58);
+    left: 0;
+    position: fixed;
+    z-index: 999999;
+    color: white;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+
+.open {
+    display: block;
+    width: 200px;
+    border-right: 2px solid white;
+}
+
+.open .sidenav-main{
+    opacity: 1;
+}
+
+.sidenav-main ul{
+    opacity: 0;
+    transition: .3s ease-in-out
+}
+
+.open-li{
+    opacity: 1 !important;
+}
+
+.dark-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    transition: all .3s ease-in-out;
+}
+
+
+.sidenav-main ul {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+    text-align: center;
+}
+
+.sidenav-main ul li{
+    list-style-type: none;
+    margin: 35px auto;
+    text-decoration: none;
+}
+
+.open-li-close a,
+.open-li a{
+    text-decoration: none;
+    color: white;
+}
+
+.open-li li:hover {
+    opacity: .6;
+}
+
+.nav-close {
+    position: absolute;
+    color: white;
+    top: 5%;
+    left: 70%;
+    font-size: 2rem;
+    z-index: 9999999;
+    opacity: 0;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-close-active {
+    opacity: 1 !important
+}
+
+@media (max-width: 737px) {
+    .hamburger-menu{
+        display: block;
+    }
+   
+}

@@ -1,5 +1,4 @@
 .navbar {
-    /* background: rgb(0, 0, 0); */
     background: white;
     height: 70px;
     width: 100%;
@@ -9,6 +8,7 @@
     border-bottom: 2px solid rgba(49, 49, 49, .2);
     
 }
+
 
 .navbar-content{
     display: flex;
@@ -90,4 +90,18 @@
     font-size: 2em;
     transform: translateY(40%);
     color: rgb(247, 180, 57);
+}
+
+
+
+
+
+@media (max-width: 737px) {
+    .nav-list1 {
+        display: none;
+    }
+    .navbar-content{
+        justify-content: flex-end;
+    }
+   
 }

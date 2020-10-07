@@ -10,10 +10,12 @@ import Footer from "./components/Footer"
 import News from "./pages/News"
 import SingleNews from "./pages/SingleNews"
 import Contact from "./pages/Contact"
+import SideNav from "./components/SideNav"
 
 function App() {
   return (
     <div className="App">
+      <SideNav />
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home}/>
