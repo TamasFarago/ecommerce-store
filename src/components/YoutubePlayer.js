@@ -8,13 +8,15 @@ export default class YoutubePlayer extends Component {
         <section className="youtube">
             <h3>See our products</h3>
             <hr />
-          <Iframe url="http://www.youtube.com/embed/cSGJcjrWCyc"
+          <Iframe src="https://www.youtube.com/embed/cSGJcjrWCyc"
           width="100%"
           height="150px"
           id="myId"
           className="myClassname"
           display="initial"
-          position="relative"/>
+          position="relative"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          frameborder="0"/>
           </section>
           )
           

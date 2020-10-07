@@ -3,6 +3,8 @@ footer {
     background: #252525;
     color: white;
     /* margin-top: 40px; */
+    z-index: 999999999;
+    bottom: 0;
 }
 
 .footer-container {

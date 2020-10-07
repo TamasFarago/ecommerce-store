@@ -1,15 +1,18 @@
 .products-page{
     padding-top: 70px;
     position: relative;
+    min-height: calc(100vh + 800px);
+    overflow-y: hidden;
 }
 
 .products-sidebar {
     padding: 10px 20px;
     position: absolute;
+    display: block;
     float: left;
     width: 20%;
     min-width: 150px;
-    /* height: 100%; */
+    height: 100%;
     /* background: rgba(228, 228, 228, 0.4); */
     min-height: calc(100vh - 70px);
 }
