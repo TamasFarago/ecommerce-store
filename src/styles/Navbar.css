@@ -25,6 +25,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
+    cursor: pointer;
+    z-index: 999999999;
 }
 
 .nav-list1, .nav-list2 {

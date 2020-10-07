@@ -11,7 +11,12 @@ export default class Navbar extends Component {
         const {cart} = this.context
         return (
             <nav className="navbar">
-                <div className="logo"> <img src={logo} alt="logo"></img></div>
+                <div className="logo"> 
+                <Link to="/">
+                <img src={logo} alt="logo"></img>
+                </Link>
+                </div>
+                
                 <div className="navbar-content">
                 <ul className="nav-list1">
                     <NavLink exact to="/" activeClassName="nav-active"><li>Home</li></NavLink>
