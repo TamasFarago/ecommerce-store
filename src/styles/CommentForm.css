@@ -73,3 +73,12 @@ input[type="radio"] {
     margin-top: -5px;
     border: none;
 }
+
+@media (max-width: 315px) {
+    form h4 {
+        font-size: 15px;
+    }
+    .comment-input {
+        width: 50% !important;
+    }
+}

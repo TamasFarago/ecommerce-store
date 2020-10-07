@@ -30,3 +30,13 @@
     /* text-transform: uppercase; */
     font-size: 20px;
 }
+
+
+@media (max-width: 550px) {
+    .reviews-title {
+        display: none;
+    }
+    .comments {
+        margin-left: 20px;
+    }
+}

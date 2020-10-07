@@ -33,11 +33,7 @@
 
 .styles_container__2pRR5 img{
      width: 70%;
-    /* background-size: contain;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);  */
+   
     
 }
 
@@ -152,4 +148,38 @@
     cursor: pointer;
     text-transform: uppercase;
     font-size: 14px;
+}
+
+.magnifier {
+    width: 100%;
+}
+
+@media (max-width: 750px) {
+    .single-product-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: .2fr 1fr;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .product-banner h2 {
+        font-size: 20px;
+    }
+    .product-banner a {
+        font-size: 10px;
+    }
+    .product-banner {
+        padding-top: 20px;
+    }
+    .magnifier {
+        display: none;
+        width: 100px;
+    }
+}
+
+@media (max-width: 312px) {
+    .icon {
+        margin: 0;
+    }
 }

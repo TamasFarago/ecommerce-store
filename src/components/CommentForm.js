@@ -35,7 +35,6 @@ export default class CommentForm extends Component {
 
     ratingAlert(){
         alert("You must rate the product before submitting")
-        console.log("k")
     }
 
     componentWillMount(){
