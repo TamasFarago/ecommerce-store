@@ -2,7 +2,7 @@ footer {
     height: 150px;
     background: #252525;
     color: white;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .footer-container {
@@ -24,7 +24,12 @@ footer {
 .p-icon {
     margin: 0 10px;
     font-size: 40px;
+    opacity: .5;
+    transition: .2s ease-in-out
+}
 
+.p-icon:hover {
+    opacity: 1;
 }
 
 .copyright {
@@ -37,4 +42,10 @@ footer {
 
 .s-icon {
     margin: 0 10px;
+    cursor: pointer;
+    transition: .2s ease-in-out
+}
+
+.s-icon:hover {
+    color: rgb(113, 151, 233);
 }

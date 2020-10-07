@@ -14,14 +14,13 @@ export default class Navbar extends Component {
                 <div className="logo"> <img src={logo} alt="logo"></img></div>
                 <div className="navbar-content">
                 <ul className="nav-list1">
-                    <NavLink to="/"><li>Home</li></NavLink>
-                    <li>About</li>
-                    <NavLink to="/products"><li>Shop</li></NavLink>
-                    <li>News</li>
-                    <li>Contact</li>
+                    <NavLink exact to="/" activeClassName="nav-active"><li>Home</li></NavLink>
+                    <NavLink exact to="/products" activeClassName="nav-active"><li>Shop</li></NavLink>
+                    <NavLink exact to="/news" activeClassName="nav-active"><li>News</li></NavLink>
+                    <NavLink exact to="/contact" activeClassName="nav-active"><li>Contact</li></NavLink>
                 </ul>
                 <ul className="nav-list2">
-                    <li>Login/Register</li>
+                    <p>CART</p>
                     <div className="nav-cart">
                             <span>{cart.length}</span>
                     <Link to="/cart">

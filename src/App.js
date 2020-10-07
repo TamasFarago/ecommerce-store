@@ -7,6 +7,9 @@ import Home from "./pages/Home"
 import SingleProduct from "./pages/SingleProduct"
 import Cart from "./pages/Cart"
 import Footer from "./components/Footer"
+import News from "./pages/News"
+import SingleNews from "./pages/SingleNews"
+import Contact from "./pages/Contact"
 
 function App() {
   return (
@@ -17,6 +20,10 @@ function App() {
         <Route exact path="/products/" component={Products}/>
         <Route exact path="/products/:slug" component={SingleProduct}/>
         <Route exact path="/cart" component={Cart}/>
+        <Route exact path="/news" component={News}/>
+        <Route exact path="/news/1" component={SingleNews}/>
+        <Route exact path="/contact" component={Contact}/>
+        
       </Switch>
         <Footer />
     </div>

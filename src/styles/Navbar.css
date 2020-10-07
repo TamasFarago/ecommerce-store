@@ -42,14 +42,29 @@
 
 .nav-list1 li{
     margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
+
+.nav-list1 li:hover {
+    opacity: .5;
+}
+
+.nav-list1 a {
+    text-decoration: none;
+}
+
 .nav-list2 li{
     margin-left: 20px;
 }
 
 .nav-cart {
-    margin-left: 40px;
+    margin-left: 10px;
     position: relative;
+}
+
+.nav-active {
+    opacity: .5;
 }
 
 

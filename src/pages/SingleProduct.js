@@ -3,6 +3,7 @@ import "../styles/SingleProduct.css"
 import { Link } from "react-router-dom"
 import {ProductContext} from "../context"
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { BiArrowBack } from "react-icons/bi"
 import Reviews from "../components/Reviews"
 import Magnifier from 'react-glass-magnifier'
 
@@ -15,7 +16,7 @@ export default class SingleProduct extends Component {
         }
     }
     static contextType = ProductContext
-    // componentDidMount(){}
+  
     render() {
         const{getProduct} = this.context;
         const product = getProduct(this.state.slug)
@@ -43,6 +44,9 @@ export default class SingleProduct extends Component {
                         />
                     </div>
                     <div className="single-product-info">
+                        <Link to="/products">
+                        <BiArrowBack className="back-arrow"/>
+                        </Link>
                         <h2>{name}</h2>
                         <hr />
                         <div className="single-product-description">

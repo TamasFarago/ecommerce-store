@@ -1,5 +1,5 @@
 form {
-    height: 350px;
+    height: 400px;
     padding-left: 20px;
     margin-top: 50px;
     border: 2px solid rgb(27, 27, 27, .8);
@@ -71,4 +71,5 @@ input[type="radio"] {
     outline: none;
     cursor: pointer;
     margin-top: -5px;
+    border: none;
 }

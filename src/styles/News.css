@@ -1,0 +1,59 @@
+.news {
+    padding-top: 70px;
+    height: calc(100vh - 150px)
+}
+
+.news-container {
+    margin: 0 100px;
+}
+
+.news-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.news-grid1 img {
+    margin: 0 auto;
+}
+
+.news-title {
+    margin: 30px;
+    text-align: center;
+}
+
+.news-title h3 {
+    font-size: 1.6rem;
+}
+
+.news-title p {
+    opacity: .5;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.news-grid-text {
+    line-height: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.news-grid-text button {
+    margin: 10px auto;
+    padding: 5px 50px;
+    background: transparent;
+    color: black;
+    text-transform: uppercase;
+    outline: none;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.news-grid-text button:hover {
+    background: black;
+    color: white;
+}
+
+.news-hr {
+    margin-top: 30px;
+}

@@ -1,5 +1,6 @@
 .singleproduct {
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .product-banner {
@@ -44,8 +45,23 @@
     text-align: center;
 }
 
+.back-arrow {
+    margin-top: 30px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.back-arrow:hover {
+    background: black;
+    color: white;
+}
+
 .single-product-info h2 {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .single-product-info hr {

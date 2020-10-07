@@ -492,5 +492,4 @@ export default [
           ]
         }
       },
-      
 ]
