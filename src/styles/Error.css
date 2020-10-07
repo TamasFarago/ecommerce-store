@@ -1,0 +1,33 @@
+.error {
+    padding-top: 70px;
+    background: rgb(224, 224, 224);
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.error div {
+    font-size: 3rem;
+}
+
+.error button {
+    background: black;
+    color: white;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: .1s ease-in-out;
+    opacity: .8
+   
+}
+
+.error button:hover {
+   opacity: 1;
+}
+
+

@@ -11,6 +11,7 @@ import News from "./pages/News"
 import SingleNews from "./pages/SingleNews"
 import Contact from "./pages/Contact"
 import SideNav from "./components/SideNav"
+import Error from "./pages/Error"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/news" component={News}/>
         <Route exact path="/news/1" component={SingleNews}/>
         <Route exact path="/contact" component={Contact}/>
+        <Route component={Error} />
         
       </Switch>
         <Footer />
