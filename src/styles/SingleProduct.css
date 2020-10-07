@@ -149,9 +149,6 @@
     text-transform: uppercase;
     font-size: 14px;
 }
-.styles_magnifying-glass__12Z9V {
-    width: 100% !important;
-}
 
 .magnifier {
     width: 100%;
@@ -178,6 +175,9 @@
     .magnifier {
         display: none;
         width: 100px;
+    }
+    .styles_magnifying-glass__12Z9V {
+        width: 100px !important;
     }
 }
 
