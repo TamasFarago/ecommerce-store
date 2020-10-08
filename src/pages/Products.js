@@ -53,13 +53,28 @@ export default class Products extends Component {
                             <p>/</p>
                             <h3>SHOP</h3>
                         </div>
+                        
                         <ProductsFilter handleInput={this.handleInput}/>
                         <FeaturedProducts />
                         <YoutubePlayer />
                     </div>
+                    <div className="mobile-shop-head">
+                        <div className="products-sidebar-mobile">
+                            <h2>Shop</h2>
+                            <div className="sidebar-nav-mobile">
+                                <Link to="/">HOME</Link>
+                                <p>/</p>
+                                <h3>SHOP</h3>
+                            </div>
+                            
+                            <ProductsFilter handleInput={this.handleInput}/>
+                        </div>
+                    </div>
+                    
                     <div className="product-error">
                         No products found.
                     </div>
+                   
                 </div>
             </section> 
             )} else {
@@ -85,6 +100,18 @@ export default class Products extends Component {
                         <ProductsFilter handleInput={this.handleInput}/>
                         <FeaturedProducts />
                         <YoutubePlayer />
+                    </div>
+                    <div className="mobile-shop-head">
+                        <div className="products-sidebar-mobile">
+                            <h2>Shop</h2>
+                            <div className="sidebar-nav-mobile">
+                                <Link to="/">HOME</Link>
+                                <p>/</p>
+                                <h3>SHOP</h3>
+                            </div>
+                            
+                            <ProductsFilter handleInput={this.handleInput}/>
+                        </div>
                     </div>
                     <div className="product-ammount">
                         <p>Showing All {filteredProducts.length} results</p></div>

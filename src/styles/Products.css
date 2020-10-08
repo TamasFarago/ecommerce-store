@@ -89,14 +89,38 @@
     text-align: center;
 }
 
+.sidebar-nav-mobile{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.mobile-shop-head {
+    text-align: center;
+    display: none;
+}
+
+.sidebar-nav-mobile a {
+    text-decoration: none;
+    color: rgba(136, 136, 136, 0.8);
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.products-sidebar-mobile {
+    margin: 10px 0;
+}
+
 @media (max-width: 850px) {
     .products-sidebar{
         display: none;
     }
     .products {
         margin-left: 0;
-        /* grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); */
-        /* width: 100px; */
+    }
+    .mobile-shop-head {
+        display: block;
     }
     
 }
