@@ -12,6 +12,7 @@ import SingleNews from "./pages/SingleNews"
 import Contact from "./pages/Contact"
 import SideNav from "./components/SideNav"
 import Error from "./pages/Error"
+import Popup from "./components/Popup"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route component={Error} />
         
       </Switch>
+      <Popup />
         <Footer />
     </div>
   );

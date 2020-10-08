@@ -1,0 +1,13 @@
+.MuiSnackbarContent-root{
+    background-color: rgb(198, 241, 181) !important;
+    color: black;
+}
+
+.MuiPaper-elevation6 {
+    box-shadow: 
+    none !important
+}
+
+.MuiSnackbarContent-message {
+    color: black;
+}

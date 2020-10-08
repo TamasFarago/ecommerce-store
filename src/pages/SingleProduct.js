@@ -6,9 +6,6 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { BiArrowBack } from "react-icons/bi"
 import Reviews from "../components/Reviews"
 import Magnifier from 'react-glass-magnifier'
-import Snackbar from '@material-ui/core/Snackbar';
-import CloseIcon from '@material-ui/icons/Close';
-import IconButton from '@material-ui/core/IconButton';
 
 
 export default class SingleProduct extends Component {
@@ -80,25 +77,7 @@ export default class SingleProduct extends Component {
                 </div>
                 <hr className="single-hr"/>
                 <Reviews />
-                <Snackbar 
-                   
-                    anchorOrigin={{vertical: "bottom", horizontal: "left" }}
-                    open={this.context.open}
-                    autoHideDuration={2000}
-                    message={<span id="message-id">Successfully added to cart!</span>}
-                    ContentProps={{"aria-describedby": "message-id"}}
-                    onClose={this.context.closeSnackbar}
-                    action={[<IconButton 
-                        
-                        onClick={this.context.closeSnackbar} 
-                        color="inherit" 
-                        key="close"
-                        aria-label="close"
-                    >
-                        <CloseIcon />
-                    </IconButton>]}
-                    
-                    />
+             
             </section>
         )
     }
