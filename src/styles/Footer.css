@@ -19,6 +19,14 @@ footer {
     margin: 0 auto;
 }
 
+.tamasfarago {
+    text-decoration: none;
+    color: white;
+}
+.tamasfarago:hover {
+    opacity: .8
+}
+
 .payment-types {
    margin-bottom: 10px;
 }
