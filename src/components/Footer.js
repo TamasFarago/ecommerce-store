@@ -14,7 +14,7 @@ export default function Footer() {
                 </div>
                 <div className="copyright">
                 <p>Copyright 2020 &#169;</p>
-                <p>Website by <a>Tamas Farago</a></p>
+                <p>Website by <a href="https://tamasfarago.netlify.app">Tamas Farago</a></p>
                 </div>
                 <div className="social-icons">
                     <FaFacebookSquare className="s-icon"/>
