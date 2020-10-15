@@ -57,6 +57,12 @@
     color: white;
 }
 
+.sp-span {
+    font-size:15px;
+    margin: 0 5px;
+    opacity: .2;
+}
+
 .single-product-info h2 {
     margin-top: 10px;
 }

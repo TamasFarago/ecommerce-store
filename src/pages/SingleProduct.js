@@ -30,7 +30,7 @@ export default class SingleProduct extends Component {
             <section className="singleproduct">
                 <div className="product-banner">
                     <h2>{name}</h2>
-                    <Link to="/">HOME</Link>
+                    <Link to="/">HOME</Link><span className="sp-span">/</span><Link to="/products">SHOP</Link>
                 </div>
                 <div className="single-product-container">
                     <div className="single-product-img-container">
