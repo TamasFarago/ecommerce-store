@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import "../styles/SingleNews.css"
 
 export default class SingleNews extends Component {
-    constructor(props){
-        super(props)
-    }
     render() {
         console.log(this.props.name)
         return (

@@ -25,7 +25,7 @@ export default class SingleProduct extends Component {
                 <h3>The product you're looking for does not exist</h3>
             </div>
         }
-        const{name, description, price, images, id} = product
+        const{name, description, images, id} = product
         return (
             <section className="singleproduct">
                 <div className="product-banner">

@@ -3,10 +3,6 @@ import {Link} from "react-router-dom"
 import "../styles/Hero.css"
 
 export default class Hero extends Component {
-    constructor(props){
-        super(props);
-    }
-    
     render() {
         const pic = this.props.image
         // const value = this.props.value

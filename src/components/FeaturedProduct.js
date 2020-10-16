@@ -9,7 +9,7 @@ export default function FeaturedProduct({product}) {
         <article className="featured-product">
             <div className="featured-product-image">
                 <Link to={`/products/${slug}`}>
-                <img src={images} alt="featured-image" style={{height: "50px", width: "50px"}}></img>
+                <img src={images} alt="featured" style={{height: "50px", width: "50px"}}></img>
                 </Link>
             </div>
             <div className="featured-product-data">

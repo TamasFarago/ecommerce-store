@@ -15,12 +15,11 @@ export default class Comment extends Component {
         return (
             <div className="comment">
                 <div>
-                <img src={ProfilePic} alt="profile picture" style={{height: "70px"}}/>
+                <img src={ProfilePic} alt="profile" style={{height: "70px"}}/>
                 </div>
                 <div className="comment-inner">
                 <div className="star2">
-                    {[...Array(rating)].map((star, i) => {
-                        const ratingValue = i + 1
+                    {[...Array(rating)].map(() => {
                         return  (
                         <div>
                          <FaStar color={"#ffc107"}/>

@@ -5,12 +5,6 @@ import PropTypes from "prop-types"
 import { ProductContext } from "../context"
 
 export default class Product extends Component {
-    constructor(props){
-        super(props);
-
-    }
-
-    
     static contextType = ProductContext;
     render() {
         return (

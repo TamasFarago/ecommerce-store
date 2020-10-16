@@ -11,9 +11,6 @@ import { Link } from "react-router-dom"
 
 
 export default class Home extends Component {
-    constructor(props){
-        super(props)
-    }
     static contextType = ProductContext;
     render() {
         console.log(this.context.featuredProducts)
@@ -25,17 +22,17 @@ export default class Home extends Component {
                 price="From only $99!"/>
             <div className="home-grid">
                 <div className="home-grid-content1 ct">
-                    <img src={shipping}></img>
+                    <img src={shipping} alt="shipping"></img>
                     <h5>Priority Shipping</h5>
                     <p>We use priority shipping for all our orders</p>
                 </div>
                 <div className="home-grid-content2 ct">
-                    <img src={box}></img>
+                    <img src={box} alt="box"></img>
                     <h5>Free Return</h5>
                     <p>If there's something wrong with your package, we offer a free return shipping</p>
                 </div>
                 <div className="home-grid-content3 ct">
-                    <img src={dollar}></img>
+                    <img src={dollar} alt="dollar"></img>
                     <h5>Free Delivery</h5>
                     <p>We ship all our products for free!</p>
                 </div>

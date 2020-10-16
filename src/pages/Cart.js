@@ -5,9 +5,6 @@ import {NavLink, Link} from "react-router-dom"
 import Delete from "../images/times-circle-regular.svg"
 
 export default class Cart extends Component {
-    constructor(props){
-        super(props);
-    }
     componentDidMount(){
         this.context.getTotal()
     }
@@ -45,9 +42,12 @@ export default class Cart extends Component {
                             {cart.map(item => (
                             <tr className="border-bottom border-right">
                                 <td className="product-flex">
-                                <div className="delete" onClick={() => removeProduct(item.id)}><img className="delete"src={Delete} /></div>
-                                <img src={item.images} style={{height: "80px", width: "80px"}}></img>
+                                <div className="delete" onClick={() => removeProduct(item.id)}><img className="delete" alt="delete" src={Delete} /></div>
+                                <Link to={`/products/${item.slug}`}>
+                                <img src={item.images} alt="item" style={{height: "80px", width: "80px"}}></img>
+                                </Link>
                                 <p className="item-name">{item.name}</p>
+                                
                                 </td>
                                 <td className="bold">${item.price}</td>
                                 <td>
@@ -75,8 +75,8 @@ export default class Cart extends Component {
                             {cart.map(item => (
                                <tr>
                                    <td className="mobile-td">
-                                   <div className="delete" onClick={() => removeProduct(item.id)}><img className="delete"src={Delete} /></div>
-                                   <img className="mobile-img" src={item.images} style={{height: "50px", width: "50px"}}></img>
+                                   <div className="delete" onClick={() => removeProduct(item.id)}><img className="delete" alt="delete" src={Delete} /></div>
+                                   <img className="mobile-img" src={item.images} alt="item" style={{height: "50px", width: "50px"}}></img>
                                     <div className="mobile-table-name">
                                         <p className="item-name">{item.name}</p>
                                         <div className="total bold">
