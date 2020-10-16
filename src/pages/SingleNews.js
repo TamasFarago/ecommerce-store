@@ -3,7 +3,6 @@ import "../styles/SingleNews.css"
 
 export default class SingleNews extends Component {
     render() {
-        console.log(this.props.name)
         return (
             <div className="singlenews">
                 <div className="singlenews-container">

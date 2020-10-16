@@ -17,7 +17,6 @@ export default class Reviews extends Component {
             })
     }
     render() {
-        console.log(this.state.comments.length)
         const comments = this.state.comments.map(comment => {
             return <Comment comment={comment.comment} name={comment.name} rating={comment.rating}/>
             
